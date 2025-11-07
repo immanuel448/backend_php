@@ -1,0 +1,8 @@
+/usuarios.db
+*.db-shm
+*.db-wal
+/vendor/
+/.idea/
+/.vscode/
+Thumbs.db
+.DS_Store
