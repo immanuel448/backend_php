@@ -5,5 +5,5 @@
 
 return [
     'mode' => 'hash',
-    'password_hash' => '$2y$10$0V4d35yWfExampleExampleExamplefP8G2f7M1YwW4i1fmvJ5rC4y' // <-- REEMPLAZA POR TU HASH
+    'password_hash' => '$2y$10$dx0aya3ZlpC.mij1zn3b7OjMztI0Ybw80JPCfXqcvj8TRfOXthcIS' // <-- REEMPLAZA POR TU HASH
 ];
