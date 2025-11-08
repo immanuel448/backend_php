@@ -249,6 +249,33 @@ footer {
 }
 
 /* =========================================
+   BOTÓN CERRAR SESIÓN
+========================================= */
+.btn-cerrar {
+  background: #ff6b81;            /* tono rosa intenso */
+  color: white !important;                   /* texto blanco */
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn-cerrar:hover {
+  background: #d8506c;            /* tono más oscuro al pasar el mouse */
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.btn-cerrar:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* =========================================
    AJUSTES RESPONSIVOS
 ========================================= */
 @media (max-width: 480px) {
